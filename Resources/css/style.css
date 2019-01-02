@@ -1,0 +1,42 @@
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: white;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+header img {
+      height: 50px;
+      padding-left: 10px;
+      align: left;
+  }
+
+nav {
+      text-align: right;
+      flex-grow: 1;
+      padding-right: 20px
+  }
+
+nav span {
+      display: inline-block;
+      padding: 10px 10px;
+      color: black
+
+  }
+
+div {
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
